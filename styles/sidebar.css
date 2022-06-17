@@ -1,0 +1,35 @@
+.sidebar{
+
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    width: 72px;
+    z-index: 50;
+    padding-top: 5px;
+
+}
+.side-home{
+    
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.side-home:hover{
+    background-color: rgb(234, 234, 234);
+    cursor: pointer;
+}
+
+.side-home img{
+    height: 24px;
+    margin-bottom: 5px;
+}
+.side-home div{
+    font-family: Roboto, Arial;
+    font-size: 10px;
+    font-weight: 500;
+    
+}
